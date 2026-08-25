@@ -1,0 +1,192 @@
+{
+  "schema_version": "1.0",
+  "snapshot_type": "SANDY_MARKET_DECISION",
+  "generated_at": "2026-08-26T02:59:04.806686+08:00",
+  "taiex": {
+    "direction_score": 58,
+    "action_confidence": 35,
+    "market_regime": "Neutral Structure / High Event Risk",
+    "action": "觀望",
+    "event_risk": 100,
+    "global_event_risk": 100
+  },
+  "stocks": {
+    "2330": {
+      "name": "台積電",
+      "code": "2330",
+      "adr_symbol": "TSM",
+      "direction_score": 60,
+      "action_confidence": 27,
+      "market_regime": "Bullish Structure / High Event Risk",
+      "decision_action": "偏多但等待確認",
+      "current_price": 2400,
+      "execution": "WAIT FOR BETTER PRICE",
+      "chase_risk": 42,
+      "rr_gate": "BLOCK",
+      "recommended_current_position_pct": 0,
+      "planned_initial_position_pct": 10,
+      "maximum_position_pct": 20,
+      "risk_budget_pct": 0.25,
+      "entry_zone_1": {
+        "low": 2385,
+        "high": 2400
+      },
+      "entry_zone_2": {
+        "low": 2360,
+        "high": 2375
+      },
+      "support_1": 2395,
+      "support_2": 2370,
+      "breakout_price": 2450,
+      "hard_stop": 2340,
+      "tp1": 2445,
+      "tp2": 2495,
+      "tp1_reduce_pct": 30,
+      "tp2_reduce_pct": 30,
+      "trend_runner_pct": 40,
+      "reference_entry": 2400,
+      "tp1_rr": 0.75,
+      "tp2_rr": 1.58,
+      "breakeven_plus_tick": 2405,
+      "tp1_protection": 2405,
+      "tp2_protection": 2455,
+      "stock_institutional_score": 40,
+      "individual_flow_score": 39,
+      "institutional_data_quality": "FULL",
+      "institutional_flow": {
+        "1d": {
+          "foreign": -1151,
+          "trust": 658,
+          "dealer": 476,
+          "total": -17,
+          "foreign_volume_pct": -8.5,
+          "total_volume_pct": -0.13
+        },
+        "5d": {
+          "foreign": -3661,
+          "trust": 839,
+          "dealer": 1612,
+          "total": -1210,
+          "foreign_volume_pct": -4.25,
+          "total_volume_pct": -1.41
+        },
+        "20d": {
+          "foreign": -9925,
+          "trust": 10135,
+          "dealer": 6235,
+          "total": 6445,
+          "foreign_volume_pct": -1.72,
+          "total_volume_pct": 1.11
+        },
+        "continuity": {
+          "foreign": "連續賣超 2 日",
+          "trust": "連續買超 4 日",
+          "dealer": "連續買超 1 日",
+          "total": "連續賣超 2 日"
+        }
+      },
+      "event_risk": {
+        "semiconductor": 100,
+        "taiex": 100,
+        "global": 100,
+        "nvidia": 82
+      },
+      "market_date": "2026-08-25",
+      "institutional_date": "2026-08-25"
+    },
+    "2303": {
+      "name": "聯電",
+      "code": "2303",
+      "adr_symbol": "UMC",
+      "direction_score": 56,
+      "action_confidence": 33,
+      "market_regime": "Neutral Structure / High Event Risk",
+      "decision_action": "觀望",
+      "current_price": 125,
+      "execution": "WAIT",
+      "chase_risk": 64,
+      "rr_gate": "ACCEPTABLE",
+      "recommended_current_position_pct": 0,
+      "planned_initial_position_pct": 10,
+      "maximum_position_pct": 20,
+      "risk_budget_pct": 0.25,
+      "entry_zone_1": {
+        "low": 118.5,
+        "high": 121
+      },
+      "entry_zone_2": {
+        "low": 106,
+        "high": 108.5
+      },
+      "support_1": 120.5,
+      "support_2": 108,
+      "breakout_price": 130.5,
+      "hard_stop": 115,
+      "tp1": 130,
+      "tp2": 138,
+      "tp1_reduce_pct": 30,
+      "tp2_reduce_pct": 30,
+      "trend_runner_pct": 40,
+      "reference_entry": 121,
+      "tp1_rr": 1.5,
+      "tp2_rr": 2.83,
+      "breakeven_plus_tick": 121.5,
+      "tp1_protection": 123.5,
+      "tp2_protection": 131.5,
+      "stock_institutional_score": 42,
+      "individual_flow_score": 41,
+      "institutional_data_quality": "FULL",
+      "institutional_flow": {
+        "1d": {
+          "foreign": -11797,
+          "trust": 4304,
+          "dealer": -350,
+          "total": -7843,
+          "foreign_volume_pct": -9.44,
+          "total_volume_pct": -6.27
+        },
+        "5d": {
+          "foreign": 35883,
+          "trust": -36520,
+          "dealer": -2632,
+          "total": -3269,
+          "foreign_volume_pct": 6.06,
+          "total_volume_pct": -0.55
+        },
+        "20d": {
+          "foreign": -59328,
+          "trust": -92372,
+          "dealer": 6880,
+          "total": -144819,
+          "foreign_volume_pct": -1.82,
+          "total_volume_pct": -4.44
+        },
+        "continuity": {
+          "foreign": "連續賣超 1 日",
+          "trust": "連續買超 2 日",
+          "dealer": "連續賣超 1 日",
+          "total": "連續賣超 1 日"
+        }
+      },
+      "event_risk": {
+        "semiconductor": 100,
+        "taiex": 100,
+        "global": 100,
+        "nvidia": 82
+      },
+      "market_date": "2026-08-25",
+      "institutional_date": "2026-08-25"
+    }
+  },
+  "system": {
+    "source": "sandy-market-data",
+    "decision_layer": "Final Decision V3.1",
+    "stock_decision_layer": "Stock Decision V1.2",
+    "stock_execution_layer": "Stock Execution V1.2",
+    "stock_institutional_layer": "Stock Institutional V1.1"
+  },
+  "validation": {
+    "status": "OK",
+    "warnings": []
+  }
+}
