@@ -1,9 +1,9 @@
 {
   "schema_version": "1.0",
   "snapshot_type": "SANDY_MARKET_DECISION",
-  "generated_at": "2026-08-26T02:59:04.806686+08:00",
+  "generated_at": "2026-08-26T11:40:32.263759+08:00",
   "taiex": {
-    "direction_score": 58,
+    "direction_score": 59,
     "action_confidence": 35,
     "market_regime": "Neutral Structure / High Event Risk",
     "action": "觀望",
@@ -89,7 +89,7 @@
         "semiconductor": 100,
         "taiex": 100,
         "global": 100,
-        "nvidia": 82
+        "nvidia": 92
       },
       "market_date": "2026-08-25",
       "institutional_date": "2026-08-25"
@@ -98,7 +98,7 @@
       "name": "聯電",
       "code": "2303",
       "adr_symbol": "UMC",
-      "direction_score": 56,
+      "direction_score": 57,
       "action_confidence": 33,
       "market_regime": "Neutral Structure / High Event Risk",
       "decision_action": "觀望",
@@ -172,7 +172,7 @@
         "semiconductor": 100,
         "taiex": 100,
         "global": 100,
-        "nvidia": 82
+        "nvidia": 92
       },
       "market_date": "2026-08-25",
       "institutional_date": "2026-08-25"

@@ -1,10 +1,10 @@
 # Decision Snapshot V1
 
-更新時間：2026-08-26T02:59:04.806686+08:00
+更新時間：2026-08-26T11:40:32.263759+08:00
 
 ## TAIEX
 
-- Direction：58/100
+- Direction：59/100
 - Confidence：35/100
 - Regime：Neutral Structure / High Event Risk
 - Action：觀望
@@ -54,7 +54,7 @@
 ## 聯電（2303）
 
 - Price：125
-- Direction：56/100
+- Direction：57/100
 - Confidence：33/100
 - Decision：觀望
 - Execution：WAIT
