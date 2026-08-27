@@ -1,13 +1,14 @@
 {
-  "schema_version": "1.0",
+  "schema_version": "1.1",
   "snapshot_type": "SANDY_MARKET_DECISION",
-  "generated_at": "2026-08-26T11:40:32.263759+08:00",
+  "session": "POSTMARKET",
+  "generated_at": "2026-08-27T22:44:11.287690+08:00",
   "taiex": {
-    "direction_score": 59,
-    "action_confidence": 35,
-    "market_regime": "Neutral Structure / High Event Risk",
-    "action": "觀望",
-    "event_risk": 100,
+    "direction_score": 72,
+    "action_confidence": 32,
+    "market_regime": "Bullish Structure / High Event Risk",
+    "action": "偏多觀望",
+    "event_risk": 92,
     "global_event_risk": 100
   },
   "stocks": {
@@ -15,167 +16,223 @@
       "name": "台積電",
       "code": "2330",
       "adr_symbol": "TSM",
-      "direction_score": 60,
-      "action_confidence": 27,
+      "direction_score": 71,
+      "action_confidence": 40,
       "market_regime": "Bullish Structure / High Event Risk",
       "decision_action": "偏多但等待確認",
-      "current_price": 2400,
+      "current_price": 2410,
       "execution": "WAIT FOR BETTER PRICE",
-      "chase_risk": 42,
+      "chase_risk": 31,
       "rr_gate": "BLOCK",
       "recommended_current_position_pct": 0,
       "planned_initial_position_pct": 10,
       "maximum_position_pct": 20,
       "risk_budget_pct": 0.25,
       "entry_zone_1": {
-        "low": 2385,
-        "high": 2400
+        "low": 2395,
+        "high": 2410
       },
       "entry_zone_2": {
-        "low": 2360,
-        "high": 2375
+        "low": 2375,
+        "high": 2390
       },
-      "support_1": 2395,
-      "support_2": 2370,
+      "support_1": 2400,
+      "support_2": 2385,
       "breakout_price": 2450,
-      "hard_stop": 2340,
+      "hard_stop": 2365,
       "tp1": 2445,
-      "tp2": 2495,
+      "tp2": 2535,
       "tp1_reduce_pct": 30,
       "tp2_reduce_pct": 30,
       "trend_runner_pct": 40,
-      "reference_entry": 2400,
-      "tp1_rr": 0.75,
-      "tp2_rr": 1.58,
-      "breakeven_plus_tick": 2405,
-      "tp1_protection": 2405,
-      "tp2_protection": 2455,
-      "stock_institutional_score": 40,
-      "individual_flow_score": 39,
+      "reference_entry": 2410,
+      "tp1_rr": 0.78,
+      "tp2_rr": 2.78,
+      "breakeven_plus_tick": 2415,
+      "tp1_protection": 2415,
+      "tp2_protection": 2495,
+      "stock_institutional_score": 81,
+      "individual_flow_score": 83,
       "institutional_data_quality": "FULL",
       "institutional_flow": {
         "1d": {
-          "foreign": -1151,
-          "trust": 658,
-          "dealer": 476,
-          "total": -17,
-          "foreign_volume_pct": -8.5,
-          "total_volume_pct": -0.13
+          "foreign": 4501,
+          "trust": -317,
+          "dealer": 158,
+          "total": 4341,
+          "foreign_volume_pct": 23.42,
+          "total_volume_pct": 22.59
         },
         "5d": {
-          "foreign": -3661,
-          "trust": 839,
-          "dealer": 1612,
-          "total": -1210,
-          "foreign_volume_pct": -4.25,
-          "total_volume_pct": -1.41
+          "foreign": 12728,
+          "trust": 270,
+          "dealer": 1293,
+          "total": 14291,
+          "foreign_volume_pct": 15.11,
+          "total_volume_pct": 16.97
         },
         "20d": {
-          "foreign": -9925,
-          "trust": 10135,
-          "dealer": 6235,
-          "total": 6445,
-          "foreign_volume_pct": -1.72,
-          "total_volume_pct": 1.11
+          "foreign": 14948,
+          "trust": 6705,
+          "dealer": 88,
+          "total": 21741,
+          "foreign_volume_pct": 3.01,
+          "total_volume_pct": 4.37
         },
         "continuity": {
-          "foreign": "連續賣超 2 日",
-          "trust": "連續買超 4 日",
-          "dealer": "連續買超 1 日",
-          "total": "連續賣超 2 日"
+          "foreign": "連續買超 2 日",
+          "trust": "連續賣超 2 日",
+          "dealer": "連續買超 3 日",
+          "total": "連續買超 2 日"
         }
       },
       "event_risk": {
-        "semiconductor": 100,
-        "taiex": 100,
+        "semiconductor": 92,
+        "taiex": 92,
         "global": 100,
-        "nvidia": 92
+        "nvidia": 65
       },
-      "market_date": "2026-08-25",
-      "institutional_date": "2026-08-25"
+      "corporate_action": null,
+      "add_position": "NORMAL MODEL",
+      "market_date": "2026-08-27",
+      "institutional_date": "2026-08-27"
     },
     "2303": {
       "name": "聯電",
       "code": "2303",
       "adr_symbol": "UMC",
-      "direction_score": 57,
-      "action_confidence": 33,
+      "direction_score": 46,
+      "action_confidence": 42,
       "market_regime": "Neutral Structure / High Event Risk",
       "decision_action": "觀望",
-      "current_price": 125,
-      "execution": "WAIT",
-      "chase_risk": 64,
-      "rr_gate": "ACCEPTABLE",
+      "current_price": 118.5,
+      "execution": "WAIT FOR STABILIZATION",
+      "chase_risk": 15,
+      "rr_gate": "BLOCK",
       "recommended_current_position_pct": 0,
       "planned_initial_position_pct": 10,
       "maximum_position_pct": 20,
       "risk_budget_pct": 0.25,
       "entry_zone_1": {
-        "low": 118.5,
-        "high": 121
+        "low": 112.5,
+        "high": 114.5
       },
       "entry_zone_2": {
-        "low": 106,
-        "high": 108.5
+        "low": 110,
+        "high": 112.5
       },
-      "support_1": 120.5,
-      "support_2": 108,
-      "breakout_price": 130.5,
-      "hard_stop": 115,
-      "tp1": 130,
-      "tp2": 138,
+      "support_1": 114.5,
+      "support_2": 112,
+      "breakout_price": 127.5,
+      "hard_stop": 116.5,
+      "tp1": 127,
+      "tp2": 130.5,
       "tp1_reduce_pct": 30,
       "tp2_reduce_pct": 30,
       "trend_runner_pct": 40,
-      "reference_entry": 121,
-      "tp1_rr": 1.5,
-      "tp2_rr": 2.83,
-      "breakeven_plus_tick": 121.5,
-      "tp1_protection": 123.5,
-      "tp2_protection": 131.5,
-      "stock_institutional_score": 42,
-      "individual_flow_score": 41,
+      "reference_entry": null,
+      "tp1_rr": null,
+      "tp2_rr": null,
+      "breakeven_plus_tick": 119,
+      "tp1_protection": 121,
+      "tp2_protection": 127,
+      "stock_institutional_score": 35,
+      "individual_flow_score": 17,
       "institutional_data_quality": "FULL",
       "institutional_flow": {
         "1d": {
-          "foreign": -11797,
-          "trust": 4304,
-          "dealer": -350,
-          "total": -7843,
-          "foreign_volume_pct": -9.44,
-          "total_volume_pct": -6.27
+          "foreign": -31746,
+          "trust": -17981,
+          "dealer": 1541,
+          "total": -48186,
+          "foreign_volume_pct": -17.25,
+          "total_volume_pct": -26.19
         },
         "5d": {
-          "foreign": 35883,
-          "trust": -36520,
-          "dealer": -2632,
-          "total": -3269,
-          "foreign_volume_pct": 6.06,
-          "total_volume_pct": -0.55
+          "foreign": -46713,
+          "trust": -9398,
+          "dealer": 4637,
+          "total": -51474,
+          "foreign_volume_pct": -7.19,
+          "total_volume_pct": -7.93
         },
         "20d": {
-          "foreign": -59328,
-          "trust": -92372,
-          "dealer": 6880,
-          "total": -144819,
-          "foreign_volume_pct": -1.82,
-          "total_volume_pct": -4.44
+          "foreign": -111532,
+          "trust": -95692,
+          "dealer": 11605,
+          "total": -195619,
+          "foreign_volume_pct": -3.87,
+          "total_volume_pct": -6.78
         },
         "continuity": {
-          "foreign": "連續賣超 1 日",
-          "trust": "連續買超 2 日",
-          "dealer": "連續賣超 1 日",
-          "total": "連續賣超 1 日"
+          "foreign": "連續賣超 3 日",
+          "trust": "連續賣超 2 日",
+          "dealer": "連續買超 2 日",
+          "total": "連續賣超 3 日"
         }
       },
       "event_risk": {
-        "semiconductor": 100,
-        "taiex": 100,
+        "semiconductor": 92,
+        "taiex": 92,
         "global": 100,
-        "nvidia": 92
+        "nvidia": 65
       },
-      "market_date": "2026-08-25",
-      "institutional_date": "2026-08-25"
+      "corporate_action": {
+        "event_id": "2303-2026-08-26-overseas-cb-capex",
+        "stock_code": "2303",
+        "stock_name": "聯電",
+        "corporate_event": "海外第七次無擔保轉換公司債／擴產",
+        "event_type": "CB",
+        "supported_type": true,
+        "announced_on": "2026-08-26",
+        "event_stage": "D+1 REPRICING",
+        "trading_days_after_event": 1,
+        "post_event_score": 25,
+        "event_status": "EVENT SELL-OFF",
+        "execution_override": "WAIT FOR STABILIZATION",
+        "add_position": "BLOCKED",
+        "event_review": "D+3 / D+5",
+        "repricing": {
+          "stock_return_pct": -4.05,
+          "taiex_return_pct": 0.31,
+          "relative_return_pct": -4.36,
+          "industry_relative_return_pct": null,
+          "volume_20d_ratio": 1.21,
+          "gap_filled": null,
+          "pre_event_close": 123.5,
+          "current_price": 118.5,
+          "recovered_pre_event_price": false
+        },
+        "institutional_reaction": {
+          "foreign_net_shares": -31746122.0,
+          "investment_trust_net_shares": -17981186.0,
+          "total_net_shares": -48186498.0
+        },
+        "relative_strength": "WEAKENING",
+        "volume_reaction": "NORMAL",
+        "recovery_trigger": 123.5,
+        "structural_failure": 112.0,
+        "level_method": "max(pre-event close, MA20) / min(20D low, MA20)",
+        "dilution_analysis": {
+          "issue_amount": 1800000000.0,
+          "issue_currency": "USD",
+          "issue_amount_twd": null,
+          "conversion_price_twd": null,
+          "conversion_premium_pct": null,
+          "potential_new_shares": null,
+          "fully_diluted_share_pct": null,
+          "maximum_potential_eps_dilution_pct": null,
+          "break_even_earnings_growth_pct": null,
+          "fund_use": "購置機器設備及廠務工程",
+          "share_dilution_status": "N/A",
+          "economic_eps_dilution_status": "REQUIRES_EARNINGS_REALIZATION",
+          "note": "Share dilution is mechanical; economic/EPS dilution depends on earnings generated by the new capital."
+        },
+        "data_quality": "HIGH"
+      },
+      "add_position": "BLOCKED",
+      "market_date": "2026-08-27",
+      "institutional_date": "2026-08-27"
     }
   },
   "system": {
@@ -183,7 +240,8 @@
     "decision_layer": "Final Decision V3.1",
     "stock_decision_layer": "Stock Decision V1.2",
     "stock_execution_layer": "Stock Execution V1.2",
-    "stock_institutional_layer": "Stock Institutional V1.1"
+    "stock_institutional_layer": "Stock Institutional V1.1",
+    "corporate_action_layer": "Corporate Action Layer V1.0"
   },
   "validation": {
     "status": "OK",
