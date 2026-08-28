@@ -1,21 +1,33 @@
 # Decision Snapshot V1
 
-更新時間：2026-08-27T22:44:11.287690+08:00
-Session：POSTMARKET
+更新時間：2026-08-28T09:58:46.310024+08:00
+Session：PREMARKET
+Report Date：2026-08-28
+Latest Market Trade Date：2026-08-27
+Freshness：PASS
 
 ## TAIEX
 
-- Direction：72/100
-- Confidence：32/100
+- Direction：73/100
+- Confidence：35/100
 - Regime：Bullish Structure / High Event Risk
-- Action：偏多觀望
-- Event Risk：92/100
+- Action：觀望
+- Event Risk：84/100
+
+### Market Structure
+
+- Market Health：N/A (N/A)
+- Breadth：51.3/100；HEALTHY RALLY
+- Participation：N/A (N/A)
+- Concentration：N/A
+- Rotation / Risk Appetite：N/A / 97.8
+- Breadth Divergence：N/A (INSUFFICIENT_HISTORY)
 
 ## 台積電（2330）
 
 - Price：2410
-- Direction：71/100
-- Confidence：40/100
+- Direction：74/100
+- Confidence：48/100
 - Decision：偏多但等待確認
 - Execution：WAIT FOR BETTER PRICE
 - Chase Risk：31/100
@@ -39,8 +51,8 @@ Session：POSTMARKET
 
 - Recommended Current Position：0%
 - Planned Initial Position：10%
-- Maximum Position：20%
-- Risk Budget：0.25%
+- Maximum Position：30%
+- Risk Budget：0.35%
 
 ### Institutional
 
@@ -55,22 +67,22 @@ Session：POSTMARKET
 ## 聯電（2303）
 
 - Price：118.5
-- Direction：46/100
-- Confidence：42/100
+- Direction：52/100
+- Confidence：50/100
 - Decision：觀望
-- Execution：WAIT FOR STABILIZATION
+- Execution：INVALID SETUP / NO TRADE
 - Chase Risk：15/100
 - R/R Gate：BLOCK
 
 ### Corporate Action
 
 - Corporate Event：海外第七次無擔保轉換公司債／擴產
-- Event Stage：D+1 REPRICING
-- Post-Event Score：25/100
-- Relative Strength：WEAKENING
+- Event Stage：D+2 REPRICING
+- Post-Event Score：53/100
+- Relative Strength：IMPROVING
 - Institutional Reaction：-48186498.0
-- Volume Reaction：NORMAL
-- Event Status：EVENT SELL-OFF
+- Volume Reaction：HEAVY
+- Event Status：ABSORPTION
 - Add Position：BLOCKED
 - Recovery Trigger：123.5
 - Structural Failure：112.0
@@ -95,7 +107,7 @@ Session：POSTMARKET
 - Recommended Current Position：0%
 - Planned Initial Position：10%
 - Maximum Position：20%
-- Risk Budget：0.25%
+- Risk Budget：0.35%
 
 ### Institutional
 

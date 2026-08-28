@@ -1,24 +1,45 @@
 {
-  "schema_version": "1.1",
+  "schema_version": "1.3",
   "snapshot_type": "SANDY_MARKET_DECISION",
-  "session": "POSTMARKET",
-  "generated_at": "2026-08-27T22:44:11.287690+08:00",
+  "session": "PREMARKET",
+  "report_date": "2026-08-28",
+  "latest_market_trade_date": "2026-08-27",
+  "generated_at": "2026-08-28T09:58:46.310024+08:00",
+  "pipeline_started_at": "2026-08-28T09:57:21.153706+08:00",
+  "freshness_status": "PASS",
   "taiex": {
-    "direction_score": 72,
-    "action_confidence": 32,
+    "direction_score": 73,
+    "action_confidence": 35,
     "market_regime": "Bullish Structure / High Event Risk",
-    "action": "偏多觀望",
-    "event_risk": 92,
-    "global_event_risk": 100
+    "action": "觀望",
+    "event_risk": 84,
+    "global_event_risk": 94
+  },
+  "market_structure": {
+    "trade_date": "2026-08-27",
+    "breadth_score": 51.3,
+    "participation_score": null,
+    "concentration_score": null,
+    "sector_rotation_score": null,
+    "risk_appetite_score": 97.8,
+    "market_health_score": null,
+    "participation": null,
+    "concentration": null,
+    "rotation": null,
+    "market_health": null,
+    "price_breadth_matrix": "HEALTHY RALLY",
+    "breadth_divergence": null,
+    "divergence_status": "INSUFFICIENT_HISTORY",
+    "data_quality": "PARTIAL"
   },
   "stocks": {
     "2330": {
       "name": "台積電",
       "code": "2330",
       "adr_symbol": "TSM",
-      "direction_score": 71,
-      "action_confidence": 40,
-      "market_regime": "Bullish Structure / High Event Risk",
+      "direction_score": 74,
+      "action_confidence": 48,
+      "market_regime": "Mild Bullish",
       "decision_action": "偏多但等待確認",
       "current_price": 2410,
       "execution": "WAIT FOR BETTER PRICE",
@@ -26,8 +47,8 @@
       "rr_gate": "BLOCK",
       "recommended_current_position_pct": 0,
       "planned_initial_position_pct": 10,
-      "maximum_position_pct": 20,
-      "risk_budget_pct": 0.25,
+      "maximum_position_pct": 30,
+      "risk_budget_pct": 0.35,
       "entry_zone_1": {
         "low": 2395,
         "high": 2410
@@ -87,10 +108,10 @@
         }
       },
       "event_risk": {
-        "semiconductor": 92,
-        "taiex": 92,
-        "global": 100,
-        "nvidia": 65
+        "semiconductor": 84,
+        "taiex": 84,
+        "global": 94,
+        "nvidia": null
       },
       "corporate_action": null,
       "add_position": "NORMAL MODEL",
@@ -101,18 +122,18 @@
       "name": "聯電",
       "code": "2303",
       "adr_symbol": "UMC",
-      "direction_score": 46,
-      "action_confidence": 42,
-      "market_regime": "Neutral Structure / High Event Risk",
+      "direction_score": 52,
+      "action_confidence": 50,
+      "market_regime": "Neutral",
       "decision_action": "觀望",
       "current_price": 118.5,
-      "execution": "WAIT FOR STABILIZATION",
+      "execution": "INVALID SETUP / NO TRADE",
       "chase_risk": 15,
       "rr_gate": "BLOCK",
       "recommended_current_position_pct": 0,
       "planned_initial_position_pct": 10,
       "maximum_position_pct": 20,
-      "risk_budget_pct": 0.25,
+      "risk_budget_pct": 0.35,
       "entry_zone_1": {
         "low": 112.5,
         "high": 114.5
@@ -172,10 +193,10 @@
         }
       },
       "event_risk": {
-        "semiconductor": 92,
-        "taiex": 92,
-        "global": 100,
-        "nvidia": 65
+        "semiconductor": 84,
+        "taiex": 84,
+        "global": 94,
+        "nvidia": null
       },
       "corporate_action": {
         "event_id": "2303-2026-08-26-overseas-cb-capex",
@@ -185,31 +206,31 @@
         "event_type": "CB",
         "supported_type": true,
         "announced_on": "2026-08-26",
-        "event_stage": "D+1 REPRICING",
-        "trading_days_after_event": 1,
-        "post_event_score": 25,
-        "event_status": "EVENT SELL-OFF",
+        "event_stage": "D+2 REPRICING",
+        "trading_days_after_event": 2,
+        "post_event_score": 53,
+        "event_status": "ABSORPTION",
         "execution_override": "WAIT FOR STABILIZATION",
         "add_position": "BLOCKED",
         "event_review": "D+3 / D+5",
         "repricing": {
-          "stock_return_pct": -4.05,
-          "taiex_return_pct": 0.31,
-          "relative_return_pct": -4.36,
+          "stock_return_pct": 4.05,
+          "taiex_return_pct": 1.35,
+          "relative_return_pct": 2.7,
           "industry_relative_return_pct": null,
-          "volume_20d_ratio": 1.21,
-          "gap_filled": null,
+          "volume_20d_ratio": 1.57,
+          "gap_filled": true,
           "pre_event_close": 123.5,
-          "current_price": 118.5,
-          "recovered_pre_event_price": false
+          "current_price": 128.5,
+          "recovered_pre_event_price": true
         },
         "institutional_reaction": {
           "foreign_net_shares": -31746122.0,
           "investment_trust_net_shares": -17981186.0,
           "total_net_shares": -48186498.0
         },
-        "relative_strength": "WEAKENING",
-        "volume_reaction": "NORMAL",
+        "relative_strength": "IMPROVING",
+        "volume_reaction": "HEAVY",
         "recovery_trigger": 123.5,
         "structural_failure": 112.0,
         "level_method": "max(pre-event close, MA20) / min(20D low, MA20)",
@@ -241,7 +262,8 @@
     "stock_decision_layer": "Stock Decision V1.2",
     "stock_execution_layer": "Stock Execution V1.2",
     "stock_institutional_layer": "Stock Institutional V1.1",
-    "corporate_action_layer": "Corporate Action Layer V1.0"
+    "corporate_action_layer": "Corporate Action Layer V1.0",
+    "market_structure_layer": "TAIEX Market Structure v1 (diagnostic only)"
   },
   "validation": {
     "status": "OK",
