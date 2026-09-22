@@ -4,8 +4,8 @@
   "session": "POSTMARKET",
   "report_date": "2026-09-22",
   "latest_market_trade_date": "2026-09-22",
-  "generated_at": "2026-09-22T18:55:22.865579+08:00",
-  "pipeline_started_at": "2026-09-22T10:52:47+00:00",
+  "generated_at": "2026-09-22T22:15:09.286737+08:00",
+  "pipeline_started_at": "2026-09-22T14:10:53+00:00",
   "freshness_status": "PASS",
   "taiex": {
     "direction_score": 75,
@@ -89,25 +89,25 @@
       "institutional_flow": {
         "1d": {
           "foreign": -4330,
-          "trust": -397,
+          "trust": -406,
           "dealer": 467,
-          "total": -4259,
+          "total": -4268,
           "foreign_volume_pct": -19.67,
-          "total_volume_pct": -19.35
+          "total_volume_pct": -19.39
         },
         "5d": {
           "foreign": 449,
-          "trust": 923,
+          "trust": 914,
           "dealer": 3715,
-          "total": 5087,
+          "total": 5078,
           "foreign_volume_pct": 0.38,
-          "total_volume_pct": 4.31
+          "total_volume_pct": 4.3
         },
         "20d": {
           "foreign": -3240,
-          "trust": -3121,
+          "trust": -3130,
           "dealer": 4830,
-          "total": -1531,
+          "total": -1540,
           "foreign_volume_pct": -0.73,
           "total_volume_pct": -0.35
         },
@@ -174,25 +174,25 @@
       "institutional_flow": {
         "1d": {
           "foreign": 50545,
-          "trust": 7772,
+          "trust": 7858,
           "dealer": 1701,
-          "total": 60018,
+          "total": 60104,
           "foreign_volume_pct": 17.64,
-          "total_volume_pct": 20.94
+          "total_volume_pct": 20.97
         },
         "5d": {
           "foreign": 89106,
-          "trust": 61122,
+          "trust": 61208,
           "dealer": 13730,
-          "total": 163957,
+          "total": 164043,
           "foreign_volume_pct": 7.91,
-          "total_volume_pct": 14.56
+          "total_volume_pct": 14.57
         },
         "20d": {
           "foreign": 52185,
-          "trust": 104257,
+          "trust": 104343,
           "dealer": 22563,
-          "total": 179004,
+          "total": 179090,
           "foreign_volume_pct": 1.32,
           "total_volume_pct": 4.51
         },

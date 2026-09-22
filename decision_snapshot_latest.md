@@ -1,6 +1,6 @@
 # Decision Snapshot V1
 
-更新時間：2026-09-22T18:55:22.865579+08:00
+更新時間：2026-09-22T22:15:09.286737+08:00
 Session：POSTMARKET
 Report Date：2026-09-22
 Latest Market Trade Date：2026-09-22
@@ -66,9 +66,9 @@ Freshness：PASS
 - Individual Flow Score：53/100
 - Data Quality：FULL
 - 外資 5D：449 張
-- 三大法人 5D：5087 張
+- 三大法人 5D：5078 張
 - 外資 20D：-3240 張
-- 三大法人 20D：-1531 張
+- 三大法人 20D：-1540 張
 
 ## 聯電（2303）
 
@@ -107,9 +107,9 @@ Freshness：PASS
 - Individual Flow Score：84/100
 - Data Quality：FULL
 - 外資 5D：89106 張
-- 三大法人 5D：163957 張
+- 三大法人 5D：164043 張
 - 外資 20D：52185 張
-- 三大法人 20D：179004 張
+- 三大法人 20D：179090 張
 
 ## Validation
 
