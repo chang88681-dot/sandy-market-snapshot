@@ -1,15 +1,15 @@
 # Decision Snapshot V1
 
-更新時間：2026-09-23T23:03:07.325196+08:00
-Session：POSTMARKET
-Report Date：2026-09-23
+更新時間：2026-09-24T07:58:48.084320+08:00
+Session：PREMARKET
+Report Date：2026-09-24
 Latest Market Trade Date：2026-09-23
 Freshness：PASS
 
 ## TAIEX
 
-- Direction：71/100
-- Confidence：62/100
+- Direction：69/100
+- Confidence：60/100
 - Regime：Risk-on Bias
 - Action：偏多但控制部位
 - Event Risk：0/100
@@ -32,8 +32,8 @@ Freshness：PASS
 ## 台積電（2330）
 
 - Price：2500
-- Direction：79/100
-- Confidence：80/100
+- Direction：73/100
+- Confidence：72/100
 - Decision：偏多
 - Execution：INVALID SETUP / NO TRADE
 - Chase Risk：66/100
@@ -58,7 +58,7 @@ Freshness：PASS
 - Recommended Current Position：0%
 - Planned Initial Position：10%
 - Maximum Position：20%
-- Risk Budget：1%
+- Risk Budget：0.75%
 
 ### Institutional
 
@@ -73,8 +73,8 @@ Freshness：PASS
 ## 聯電（2303）
 
 - Price：160
-- Direction：69/100
-- Confidence：60/100
+- Direction：64/100
+- Confidence：52/100
 - Decision：偏多但等待確認
 - Execution：WAIT FOR STABILIZATION
 - Chase Risk：100/100
@@ -113,7 +113,7 @@ Freshness：PASS
 - Recommended Current Position：0%
 - Planned Initial Position：5%
 - Maximum Position：15%
-- Risk Budget：0.75%
+- Risk Budget：0.5%
 
 ### Institutional
 
