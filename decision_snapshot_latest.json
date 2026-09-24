@@ -4,8 +4,8 @@
   "session": "POSTMARKET",
   "report_date": "2026-09-24",
   "latest_market_trade_date": "2026-09-24",
-  "generated_at": "2026-09-24T22:29:45.581087+08:00",
-  "pipeline_started_at": "2026-09-24T14:26:29+00:00",
+  "generated_at": "2026-09-24T22:33:22.294872+08:00",
+  "pipeline_started_at": "2026-09-24T14:30:15+00:00",
   "freshness_status": "PASS",
   "taiex": {
     "direction_score": 57,
