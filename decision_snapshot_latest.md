@@ -1,26 +1,26 @@
 # Decision Snapshot V1
 
-更新時間：2026-10-02T07:03:30.094859+08:00
-Session：PREMARKET
-Report Date：2026-10-02
-Latest Market Trade Date：2026-10-01
+更新時間：2026-10-06T03:09:09.797281+08:00
+Session：POSTMARKET
+Report Date：2026-10-05
+Latest Market Trade Date：2026-10-05
 Freshness：PASS
 
 ## TAIEX
 
-- Direction：72/100
-- Confidence：67/100
+- Direction：73/100
+- Confidence：66/100
 - Regime：Risk-on Bias
 - Action：偏多但控制部位
 - Event Risk：0/100
 
 ### Market Structure
 
-- Market Health：FRAGILE (49.8)
-- Breadth：43.4/100；NARROW RALLY / WARNING
-- Participation：MIXED (52.8)
+- Market Health：FRAGILE (46.3)
+- Breadth：36.6/100；NARROW RALLY / WARNING
+- Participation：MIXED (50.3)
 - Concentration：N/A
-- Rotation / Risk Appetite：MIXED / 74.6
+- Rotation / Risk Appetite：MIXED / 78.5
 - Breadth Divergence：N/A (INSUFFICIENT_HISTORY)
 
 ### Active ETF Data
@@ -31,85 +31,99 @@ Freshness：PASS
 
 ## 台積電（2330）
 
-- Price：2510
-- Direction：78/100
-- Confidence：77/100
-- Decision：偏多
-- Execution：WAIT FOR BETTER PRICE
-- Chase Risk：60/100
-- R/R Gate：BLOCK
-
-### Entry
-
-- Entry Zone 1：2480 ～ 2495
-- Entry Zone 2：2455 ～ 2470
-- Breakout：2515
-
-### Exit
-
-- Hard Stop：2435
-- TP1：2510
-- TP2：2530
-- TP1 Protection：2500
-- TP2 Protection：2510
-
-### Position
-
-- Recommended Current Position：0%
-- Planned Initial Position：10%
-- Maximum Position：20%
-- Risk Budget：1%
-
-### Institutional
-
-- Stock Institutional Score：72/100
-- Individual Flow Score：70/100
-- Data Quality：FULL
-- 外資 5D：2512 張
-- 三大法人 5D：3756 張
-- 外資 20D：-14641 張
-- 三大法人 20D：-8550 張
-
-## 聯電（2303）
-
-- Price：161.5
-- Direction：72/100
-- Confidence：67/100
+- Price：2575
+- Direction：79/100
+- Confidence：87/100
 - Decision：偏多
 - Execution：INVALID SETUP / NO TRADE
-- Chase Risk：86/100
-- R/R Gate：POOR
+- Chase Risk：83/100
+- R/R Gate：EXCELLENT
 
 ### Entry
 
-- Entry Zone 1：155 ～ 158
-- Entry Zone 2：144 ～ 146.5
-- Breakout：169
+- Entry Zone 1：2500 ～ 2515
+- Entry Zone 2：2480 ～ 2500
+- Breakout：2585
 
 ### Exit
 
-- Hard Stop：148
-- TP1：168.5
-- TP2：176.5
-- TP1 Protection：161.5
-- TP2 Protection：169.5
+- Hard Stop：2500
+- TP1：2580
+- TP2：2625
+- TP1 Protection：2540
+- TP2 Protection：2585
 
 ### Position
 
 - Recommended Current Position：0%
 - Planned Initial Position：5%
 - Maximum Position：15%
-- Risk Budget：0.75%
+- Risk Budget：1%
 
 ### Institutional
 
-- Stock Institutional Score：57/100
-- Individual Flow Score：48/100
+- Stock Institutional Score：79/100
+- Individual Flow Score：81/100
 - Data Quality：FULL
-- 外資 5D：-33421 張
-- 三大法人 5D：-24291 張
-- 外資 20D：24490 張
-- 三大法人 20D：154855 張
+- 外資 5D：3913 張
+- 三大法人 5D：8672 張
+- 外資 20D：2163 張
+- 三大法人 20D：10708 張
+
+## 聯電（2303）
+
+- Price：152.5
+- Direction：66/100
+- Confidence：79/100
+- Decision：偏多但等待確認
+- Execution：INVALID SETUP / NO TRADE
+- Chase Risk：30/100
+- R/R Gate：EXCELLENT
+
+### Corporate Action
+
+- Corporate Event：海外第七次無擔保轉換公司債／擴產
+- Event Stage：D+26 CONFIRMATION
+- Post-Event Score：67/100
+- Relative Strength：IMPROVING
+- Institutional Reaction：-120685720.0
+- Volume Reaction：HEAVY
+- Event Status：RECOVERY
+- Add Position：BLOCKED
+- Recovery Trigger：148.78
+- Structural Failure：126.5
+- Event Review：D+10
+
+### Entry
+
+- Entry Zone 1：147 ～ 150
+- Entry Zone 2：133 ～ 136
+- Breakout：168.5
+
+### Exit
+
+- Hard Stop：144
+- TP1：168
+- TP2：176.5
+- TP1 Protection：160.5
+- TP2 Protection：169
+
+### Position
+
+- Recommended Current Position：0%
+- Planned Initial Position：15%
+- Maximum Position：40%
+- Risk Budget：1%
+
+### Institutional
+
+- Stock Institutional Score：43/100
+- Individual Flow Score：30/100
+- Data Quality：FULL
+- 外資 5D：-65801 張
+- 三大法人 5D：-82823 張
+- 外資 20D：-30299 張
+- 三大法人 20D：74375 張
 
 ## Validation
 
